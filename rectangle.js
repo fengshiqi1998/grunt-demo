@@ -1,5 +1,5 @@
 $(function() {
-  console.log('hello');
+  //console.log('hello');
   var $width = $('#width'),
       $height = $('#height'),
       $btnCal = $('#calculate'),
