@@ -9,7 +9,7 @@ describe('矩形计算器 HTTP API 接口测试', function() {
       var rect = JSON.parse(result);
       expect(rect.area).to.be.equal(400);
       expect(rect.perimeter).to.be.equal(80);
-      //done();
+      done();
     })
   });
   });

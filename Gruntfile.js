@@ -1,12 +1,12 @@
 module.exports = function (grunt) {
   grunt.initConfig({
+    run: {
+      api: {
+        options: { wait: false  },
+        args: ['./app.js']
+      }
+    },
     mochacli: {
-      run: {
-        api: {
-          options: { wait: false  },
-          args: ['./app.js']
-        }
-      },
       options: {
         reporter: 'spec',
          bail: true
